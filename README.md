@@ -4,7 +4,7 @@ Script for the popular discord counting game.
 Generate a unique number that is considered valid by the counting bot!
 
 ## Usage:
-python creative_count.py [type] [size] [total]
+`python creative_count.py [type] [size] [total]`
 
 Specify 'd' or 'w' for decimal or whole numbers.
 
