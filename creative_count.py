@@ -2,11 +2,6 @@ import numpy as np, numpy.random
 from random import uniform, sample, choice
 import sys
 
-def f(n, s):
-    r = min(s, 1)
-    x = uniform(max(0, r - (r - s / n) * 2), r)
-    return n < 2 and [s] or sample([x] + f(n - 1, s - x), n)
-
 #
 #   Creates an equation with decimal numbers
 #
